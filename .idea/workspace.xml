@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4c55dde-2ccc-4d82-8a40-89c1fcbd60f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS1-introduction/stackP.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS1-introduction/stackP.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS1-introduction/stackP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+            <state relative-caret-position="270">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
               <folding>
                 <element signature="e#83#668#1" />
+                <element signature="e#670#1242#1" />
+                <element signature="e#1244#2090#1" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DS1-introduction/jinzhi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="837">
+              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -90,12 +102,13 @@
         <option value="$PROJECT_DIR$/DS1-introduction/disorderstring.py" />
         <option value="$PROJECT_DIR$/DS1-introduction/listP.py" />
         <option value="$PROJECT_DIR$/DS1-introduction/stackP.py" />
+        <option value="$PROJECT_DIR$/DS1-introduction/jinzhi.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="450" />
-    <option name="y" value="97" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="310" />
+    <option name="y" value="134" />
     <option name="width" value="1382" />
     <option name="height" value="864" />
   </component>
@@ -237,18 +250,18 @@
       <workItem from="1582874629360" duration="12000" />
       <workItem from="1583109078838" duration="14450000" />
       <workItem from="1583233139134" duration="1200000" />
-      <workItem from="1583283767694" duration="4326000" />
+      <workItem from="1583283767694" duration="11358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19988000" />
+    <option name="totallyTimeSpent" value="27020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="450" y="97" width="1382" height="864" extended-state="1" />
+    <frame x="638" y="151" width="1382" height="864" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,7 +288,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_data_structures$stackP.coverage" NAME="stackP Coverage Results" MODIFIED="1583288308675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1-introduction" />
+    <SUITE FILE_PATH="coverage/python_data_structures$stackP.coverage" NAME="stackP Coverage Results" MODIFIED="1583306600288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1-introduction" />
     <SUITE FILE_PATH="coverage/python_data_structures$pracise.coverage" NAME="pracise Coverage Results" MODIFIED="1583112849054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1-introduction" />
     <SUITE FILE_PATH="coverage/python_data_structures$disorderstring.coverage" NAME="disorderstring Coverage Results" MODIFIED="1583285865593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1-introduction" />
   </component>
@@ -324,11 +337,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DS1-introduction/stackP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        <state relative-caret-position="270">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
           <folding>
             <element signature="e#83#668#1" />
+            <element signature="e#670#1242#1" />
+            <element signature="e#1244#2090#1" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS1-introduction/jinzhi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
