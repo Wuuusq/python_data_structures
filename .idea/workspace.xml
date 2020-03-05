@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4c55dde-2ccc-4d82-8a40-89c1fcbd60f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DS1-introduction/jinzhi.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS1-introduction/jinzhi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/基本数据结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/基本数据结构.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基本数据结构.md" beforeDir="false" afterPath="$PROJECT_DIR$/栈--基本数据结构.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +67,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS1-introduction/QueueP1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="248">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+              <folding>
+                <element signature="e#0#238#1" />
+                <element signature="e#301#309#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/WeChat Files/lm554721/FileStorage/File/2020-03/deqye.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DS1-introduction/dequeueP1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#423#1" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,12 +142,13 @@
         <option value="$PROJECT_DIR$/DS1-introduction/stackP.py" />
         <option value="$PROJECT_DIR$/DS1-introduction/jinzhi.py" />
         <option value="$PROJECT_DIR$/DS1-introduction/QueueP1.py" />
+        <option value="$PROJECT_DIR$/DS1-introduction/dequeueP1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="383" />
-    <option name="y" value="84" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="464" />
+    <option name="y" value="104" />
     <option name="width" value="1382" />
     <option name="height" value="864" />
   </component>
@@ -177,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.QueueP1">
+  <component name="RunManager" selected="Python.dequeueP1">
     <configuration name="QueueP1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_data_structures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +217,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DS1-introduction/QueueP1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dequeueP1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_data_structures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DS1-introduction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DS1-introduction/dequeueP1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,6 +315,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dequeueP1" />
         <item itemvalue="Python.QueueP1" />
         <item itemvalue="Python.stackP" />
         <item itemvalue="Python.disorderstring" />
@@ -289,18 +337,17 @@
       <workItem from="1583109078838" duration="14450000" />
       <workItem from="1583233139134" duration="1200000" />
       <workItem from="1583283767694" duration="12161000" />
-      <workItem from="1583368058748" duration="5650000" />
+      <workItem from="1583368058748" duration="9431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33473000" />
+    <option name="totallyTimeSpent" value="37254000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="94" width="1382" height="864" extended-state="0" />
-    <editor active="true" />
+    <frame x="464" y="104" width="1382" height="864" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -331,6 +378,7 @@
     <SUITE FILE_PATH="coverage/python_data_structures$QueueP1.coverage" NAME="QueueP1 Coverage Results" MODIFIED="1583379244267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1-introduction" />
     <SUITE FILE_PATH="coverage/python_data_structures$pracise.coverage" NAME="pracise Coverage Results" MODIFIED="1583112849054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1-introduction" />
     <SUITE FILE_PATH="coverage/python_data_structures$disorderstring.coverage" NAME="disorderstring Coverage Results" MODIFIED="1583285865593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1-introduction" />
+    <SUITE FILE_PATH="coverage/python_data_structures$dequeueP1.coverage" NAME="dequeueP1 Coverage Results" MODIFIED="1583392041037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DS1-introduction" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -398,10 +446,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/列表内置操作时间复杂度.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/DS1-introduction/QueueP1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="248">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="e#0#238#1" />
+            <element signature="e#301#309#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/lm554721/FileStorage/File/2020-03/deqye.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS1-introduction/dequeueP1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#423#1" />
+          </folding>
         </state>
       </provider>
     </entry>
