@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c55dde-2ccc-4d82-8a40-89c1fcbd60f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DS2-sortandsearch/sortP.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS2-sortandsearch/sortP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/排序和搜索.md" beforeDir="false" afterPath="$PROJECT_DIR$/排序和搜索.md" afterDir="false" />
-    </list>
+    <list default="true" id="f4c55dde-2ccc-4d82-8a40-89c1fcbd60f5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS2-sortandsearch/sortP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="219" column="20" lean-forward="true" selection-start-line="219" selection-start-column="20" selection-end-line="219" selection-end-column="20" />
+            <state relative-caret-position="169">
+              <caret line="178" column="21" lean-forward="true" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DS3-tree/treeP1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -64,6 +70,7 @@
         <option value="$PROJECT_DIR$/DS2/searchPractise.py" />
         <option value="$PROJECT_DIR$/DS2-sortandsearch/searchPractise.py" />
         <option value="$PROJECT_DIR$/DS2-sortandsearch/sortP.py" />
+        <option value="$PROJECT_DIR$/DS3-tree/treeP1.py" />
       </list>
     </option>
   </component>
@@ -259,18 +266,18 @@
       <workItem from="1583713753124" duration="5878000" />
       <workItem from="1583799735733" duration="6597000" />
       <workItem from="1583824547063" duration="3184000" />
-      <workItem from="1583886546991" duration="3636000" />
+      <workItem from="1583886546991" duration="3888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61368000" />
+    <option name="totallyTimeSpent" value="61620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="653" y="270" width="1279" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23872027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23872027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -432,8 +439,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DS2-sortandsearch/sortP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="219" column="20" lean-forward="true" selection-start-line="219" selection-start-column="20" selection-end-line="219" selection-end-column="20" />
+        <state relative-caret-position="169">
+          <caret line="178" column="21" lean-forward="true" selection-start-line="178" selection-start-column="21" selection-end-line="178" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS3-tree/treeP1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
