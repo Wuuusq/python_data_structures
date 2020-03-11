@@ -65,16 +65,17 @@ print(selectionSort([24, 48, 65, 48, 22, 12, 36, 98, 45]))
 
 # 插入排序
 def insertionSort(alist):
-    for i in range(1,len(alist)):
+    for i in range(1, len(alist)):
         currentValue = alist[i]
         pos = i
-        while pos > 0 and alist[pos -1]>currentValue:
-            alist[pos] = alist[pos -1]
-            pos = pos -1
+        while pos > 0 and alist[pos - 1] > currentValue:
+            alist[pos] = alist[pos - 1]
+            pos = pos - 1
 
         alist[pos] = currentValue
 
-alist = [54,26,93,17,77,31,44,55,20]
+
+alist = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 insertionSort(alist)
 print(alist)
 
@@ -87,7 +88,7 @@ def shellSort(alist):
         for startposition in range(sublistcount):
             gapInsertionSort(alist, startposition, sublistcount)
 
-        print('alist：', alist)
+        # print('alist：', alist)
 
         sublistcount = sublistcount // 2
 
@@ -107,3 +108,30 @@ def gapInsertionSort(alist, start, gap):
 alist = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 shellSort(alist)
 print(alist)
+
+
+# 归并排序
+def mergeSort(arr):
+    import math
+    if (len(arr) < 2):
+        return arr
+    middle = math.floor(len(arr) / 2)
+    left, right = arr[0:middle], arr[middle:]
+    return merge(mergeSort(left), mergeSort(right))
+
+
+def merge(left, right):
+    result = []
+    while left and right:
+        if left[0] <= right[0]:
+            result.append(left.pop(0))
+        else:
+            result.append(right.pop(0))
+    while left:
+        result.append(left.pop(0))
+    while right:
+        result.append(right.pop(0))
+    return result
+
+
+print(mergeSort([15, 19, 256, 36, 48, 789, 65, 95, 52]))
