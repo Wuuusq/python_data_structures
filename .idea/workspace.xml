@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c55dde-2ccc-4d82-8a40-89c1fcbd60f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DS4-graph/graphP1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DS4-graph/graphP1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/图.md" beforeDir="false" afterPath="$PROJECT_DIR$/图.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +34,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DS3-tree/treeP1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
               <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
               <folding>
                 <element signature="e#0#159#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DS4-graph/graphP1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+              <folding>
+                <element signature="e#2397#2438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,6 +89,7 @@
         <option value="$PROJECT_DIR$/DS2-sortandsearch/searchPractise.py" />
         <option value="$PROJECT_DIR$/DS2-sortandsearch/sortP.py" />
         <option value="$PROJECT_DIR$/DS3-tree/treeP1.py" />
+        <option value="$PROJECT_DIR$/DS4-graph/graphP1.py" />
       </list>
     </option>
   </component>
@@ -96,11 +110,6 @@
             <path>
               <item name="python_data_structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_data_structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_data_structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_data_structures" type="462c0819:PsiDirectoryNode" />
-              <item name="DS5-graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,18 +287,17 @@
       <workItem from="1583824547063" duration="3184000" />
       <workItem from="1583886546991" duration="4567000" />
       <workItem from="1583973330615" duration="4584000" />
-      <workItem from="1584065089244" duration="640000" />
+      <workItem from="1584065089244" duration="3193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67523000" />
+    <option name="totallyTimeSpent" value="70076000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="786" y="178" width="1279" height="812" extended-state="0" />
-    <editor active="true" />
+    <frame x="602" y="179" width="1279" height="812" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24692371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24692371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -463,6 +471,16 @@
           <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
           <folding>
             <element signature="e#0#159#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DS4-graph/graphP1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+          <folding>
+            <element signature="e#2397#2438#0" expanded="true" />
           </folding>
         </state>
       </provider>
